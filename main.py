@@ -8,8 +8,8 @@ def check_stocks():
     # آدرس اصلی سایت بورس
     target_url = "https://api.tgju.org/v1/market/indicator/summary-table-data/stock"
     
-    # استفاده از یک پروکسی رایگان برای دور زدن تحریم IP
-    proxy_url = f"https://api.codetabs.com/v1/proxy?quest={target_url}"
+    # استفاده از یک پروکسی قوی‌تر
+    proxy_url = f"https://api.allorigins.win/raw?url={target_url}"
     
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
